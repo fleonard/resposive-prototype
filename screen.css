@@ -1,0 +1,47 @@
+@media only screen and (max-width: 320px) {
+
+	.row{
+		float:none;
+		width:320px;
+	}
+	#logo{
+		display:none;
+	}
+
+	.hero #hero_carousel, .hero .hero-img{
+		height: auto;
+		width:320px;
+	}
+
+	.hero .text_right{
+	    right: 100%;
+	    top: 10%;
+	    width: 100%;
+	}
+
+	.image_container img{
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	.carousel-arrow{
+		width:40%;
+	}
+	.carousel-bullets{
+		display:none;
+	}
+
+	.feature_panel_column {
+	    display: block;
+	    float: none;
+	    margin: 0;
+	    padding: 2em;
+	    position: relative;
+	}
+	.feature_panel_column .descr_text_and_bg {
+	    bottom: 112px;
+	    height: 110px;
+	    left: 0;
+	    position: relative;
+	}
+}

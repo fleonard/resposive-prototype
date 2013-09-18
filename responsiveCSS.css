@@ -1,0 +1,458 @@
+@media all {
+/*	CSS RESET  */
+	/* 	http://meyerweb.com/eric/tools/css/reset/ 
+		v2.0 | 20110126
+		License: none (public domain) */
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	html { -webkit-text-size-adjust: none; }
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 480px){
+/* Styles */
+	#header{
+		background: url("http://cdn-co.steelseries.com/wp-content/themes/steelseries/images/header_bg.png") repeat scroll 0 0 transparent;
+	    height: 128px;
+	}
+
+	.container_24{
+		width:auto;
+		float:none;
+	}
+	#logo{
+		margin-left: 5px;
+		padding:0;
+	}
+	#menu{
+		width:auto;
+		margin-left: -6px;
+	}
+	#menu_buttons{
+		width:auto;
+		left:60px;
+		top:-30px;
+	}
+	#menu_search{
+		width:150px;
+		bottom: 30px;
+    	left: 255px;
+	}
+	.submenu_bg_left,.submenu_bg_right{
+		display:none;
+	}
+	.submenu{
+		background: none;
+	}
+	#submenu_support{
+	    left: 71px;
+	    top: 64px;
+	}
+
+	.wrapper{
+		float: none;
+	    height: auto;
+	    width: auto;
+	}
+	#home_content #carousel {
+	    height: auto;
+	    width: 480px;
+	}
+	#carousel .jcarousel-list li, #carousel .jcarousel-item {
+	    height: 100%;
+	    width: 480px;
+	}
+	#carousel .jcarousel-list li a img {
+	    max-width: 90%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	#home_content .grid_1 {
+    	height: 0;
+	}
+	#home_content .grid_1 img {
+	    margin-top:0;
+	}
+	#carousel-next{
+	    bottom: 268px;
+	    display: block;
+	    left: 420px;
+	    position: relative;
+	}
+	#carousel-prev{
+	    display: block;
+	    position: relative;
+	    right: 160px;
+	    top: 1px;
+	}
+
+	#news {
+	    height: 100px;
+	    margin: 0;
+	}
+	.container_24 .grid_24 {
+	    width: 100%;
+	}
+	#news h1{
+		padding-right:20px;
+	}
+	.grid_6{
+		padding-left:115px;
+	}
+	#footer{
+		font-size: 1em;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+
+	body { display: none !important; }
+
+	#header{
+		background: url("http://cdn-co.steelseries.com/wp-content/themes/steelseries/images/header_bg.png") repeat scroll 0 0 transparent;
+	    height: 192px;
+	}
+
+	.container_24{
+		width:auto;
+		float:none;
+	}
+	#logo{
+		margin-left: 5px;
+		padding:0;
+	}
+	#menu{
+		width:auto;
+		margin-left: -6px;
+	}
+	#menu_buttons{
+		width:auto;
+		left:-5px;
+		top:32px;
+	}
+	#menu_search{
+		width:150px;
+		bottom: 30px;
+    	left: 140px;
+	}
+	.search_bg{
+		background: url("http://localhost:82/Responsive%20Web/search.png") no-repeat scroll left top transparent;
+		height: 19px;
+    	width: 150px;
+	}
+	.submenu_bg_left,.submenu_bg_right{
+		display:none;
+	}
+	.submenu{
+		background: none;
+	}
+	#submenu_support{
+	    left: 71px; 
+	    top: 64px;
+	}
+
+	.wrapper{
+		float: none;
+	    height: auto;
+	    width: auto;
+	}
+	#home_content #carousel {
+	    height: auto;
+	    width: 320px;
+	}
+	#carousel .jcarousel-list li, #carousel .jcarousel-item {
+	    height: 100%;
+	    width: 320px;
+	}
+	#carousel .jcarousel-list li a img {
+	    max-width: 85%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	#home_content .grid_1 {
+    	height: 0;
+	}
+	#home_content .grid_1 img {
+	    margin-top:0;
+	}
+	#carousel-next{
+	    bottom: 185px;
+	    display: block;
+	    left: 265px;
+	    position: relative;
+	}
+	#carousel-prev{
+	    display: block;
+	    position: relative;
+	    right: 160px;
+	    top: 1px;
+	}
+
+	#news {
+	    height: 100px;
+	    margin: 0;
+	}
+	.container_24 .grid_24 {
+	    width: 100%;
+	}
+	#news h1{
+		padding-right:20px;
+	}
+	.grid_6{
+		padding-left:30px;
+	}
+	#footer{
+		font-size: 1em;
+	}
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+	#header{
+		background: url("http://cdn-co.steelseries.com/wp-content/themes/steelseries/images/header_bg.png") repeat scroll 0 0 transparent;
+	    height: 63px;
+	}
+
+	.container_24{
+		width:auto;
+		float:none;
+	}
+	#logo{
+		margin-left: 5px;
+		padding:0;
+	}
+	#menu{
+		width:auto;
+		margin-left: -6px;
+	}
+	#menu_buttons{
+		width:auto;
+		left:90px;
+		top:15px;
+	}
+	#menu_search{
+		width:150px;
+		bottom: -15px;
+    	left: 165px;
+	}
+	.submenu_bg_left,.submenu_bg_right{
+		display:block;
+	}
+	.submenu{
+		background: url("http://cdn-co.steelseries.com/wp-content/themes/steelseries/images/submenu_bg.png") repeat-x scroll 0 0 transparent;
+	}
+	.wrapper{
+		float: none;
+	    height: auto;
+	    width: auto;
+	}
+	#home_content #carousel {
+	    height: auto;
+	    width: 1024px;
+	}
+	#carousel .jcarousel-list li, #carousel .jcarousel-item {
+	    height: 100%;
+	    width: 1024px;
+	}
+	#carousel .jcarousel-list li a img {
+		padding-left: 50px;
+	    max-width: 85%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	#home_content .grid_1 {
+    	height: 0;
+	}
+	#home_content .grid_1 img {
+	    margin-top:0;
+	}
+	#carousel-next{
+	    bottom: 468px;
+	    display: block;
+	    left: 960px;
+	    position: relative;
+	}
+	#carousel-prev{
+	    display: block;
+	    position: relative;
+	    left: -635px;
+	    top: 5px;
+	}
+
+	#news {
+	    height: 50px;
+	    margin: 0;
+	}
+	.container_24 .grid_24 {
+	    width: 100%;
+	}
+	#news h1{
+		padding-right:20px;
+	}
+	.grid_6{
+		padding-left:10px;
+	}
+	#footer{
+		font-size: 1em;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+	#header{
+		background: url("http://cdn-co.steelseries.com/wp-content/themes/steelseries/images/header_bg.png") repeat scroll 0 0 transparent;
+	    height: 128px;
+	}
+
+	.container_24{
+		width:auto;
+		float:none;
+	}
+	#logo{
+		margin-left: 5px;
+		padding:0;
+	}
+	#menu{
+		width:auto;
+		margin-left: -6px;
+	}
+	#menu_buttons{
+		width:auto;
+		left:-500px;
+		top:80px;
+	}
+	#menu_search{
+		width:150px;
+		bottom: -15px;
+    	left: 550px;
+	}
+	.submenu_bg_left,.submenu_bg_right{
+		display:none;
+	}
+	.submenu{
+		background: none;
+	}
+	#submenu_support{
+	    left: 71px;
+	    top: 64px;
+	}
+
+	.wrapper{
+		float: none;
+	    height: auto;
+	    width: auto;
+	}
+	#home_content #carousel {
+	    height: auto;
+	    width: 768px;
+	}
+	#carousel .jcarousel-list li, #carousel .jcarousel-item {
+	    height: 100%;
+	    width: 768px;
+	}
+	#carousel .jcarousel-list li a img {
+	    max-width: 85%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	#home_content .grid_1 {
+    	height: 0;
+	}
+	#home_content .grid_1 img {
+	    margin-top:0;
+	}
+	#carousel-next{
+	    bottom: 355px;
+	    display: block;
+	    left: 715px;
+	    position: relative;
+	}
+	#carousel-prev{
+	    display: block;
+	    position: relative;
+	    right: 0px;
+	    top: 5px;
+	}
+
+	#news {
+	    height: 50px;
+	    margin: 0;
+	}
+	.container_24 .grid_24 {
+	    width: 100%;
+	}
+	#news h1{
+		padding-right:20px;
+	}
+	.grid_6{
+		padding-left:90px;
+	}
+	#footer{
+		font-size: 1em;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 and high pixel ratio devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

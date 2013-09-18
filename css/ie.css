@@ -1,0 +1,55 @@
+#wrap{
+	width:960px;
+}
+
+#header {
+    height: 120px;
+    position: relative;
+}
+
+#menu_buttons ul {
+    left: 400px;
+    top: 60px;
+    z-index: 100;
+}
+
+#searchform {
+    top: 56px;
+}
+
+#main-nav .sub-product {
+    bottom: -41px;
+    height: 40px;
+    width: 620%;
+}
+
+#main-nav .sub-support {
+    bottom: -41px;
+    height: 40px;
+    width: 498%;
+}
+
+#main-nav .sub-contact {
+    width: 509%;
+}
+
+.content h1 {
+    padding-top: 20px;
+}
+
+.product {
+	float: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 23%;
+}
+
+#footer {
+	position:absolute;
+    width: 960px;
+}
+
+#footer .set {
+	float:left;
+    width: 14%;
+}
